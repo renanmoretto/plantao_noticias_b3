@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "plantao-noticias-b3"
 version = "0.1.0"
-description = ""
+description = "Wrapper básico e prático para ler notícias do plantão de notícias da B3"
 authors = ["renanmoretto <himynameisrenan@outlook.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "plantao_noticias_b3"}]
-repository = "https://github.com/renanmoretto/sinacor_negs"
+repository = "https://github.com/renanmoretto/plantao_noticias_b3"
+keywords = ["b3", "plantao", "noticias", "bolsa", "plantao de noticias"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
