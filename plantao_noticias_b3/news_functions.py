@@ -13,7 +13,7 @@ def validate_date(date):
     return datetime.date.today().strftime("%Y-%m-%d")
 
 
-def request_get_with_timeout(url: str, timeout_time: float):
+def request_get_with_timeout(url: str, timeout_time: float = 5):
     try:
         r = requests.get(url, timeout=timeout_time)
         if r.status_code == 200:
